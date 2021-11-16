@@ -1,8 +1,9 @@
-time = new Date();
+
 //let second;
 //let minute;
 //let hour;
 
+//every second get current time and display it
 setInterval(()=>{
     //time.timeNow();
 
@@ -11,6 +12,7 @@ setInterval(()=>{
     //hour=time.getHours();
 
     //console.log(`${hour}:${minute}:${second}`)
+
 
     console.log(new Date().toLocaleTimeString());
 

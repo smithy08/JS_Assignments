@@ -1,3 +1,5 @@
+
+//test object 
 var library = [ 
     {
         author: 'Bill Gates',
@@ -20,11 +22,12 @@ var library = [
     }
 ];
 
-function display_books(){
-    for (let i of library){
+//input the object as a parameter and return the current status
+function display_books(lib){
+    for (let i of lib){
         
         console.log(`${i.title} by ${i.author} has a current reading status of ${i.readingStatus}`);
     }
 }
 
-display_books()
+display_books(library);

@@ -1,8 +1,10 @@
 
 function month_name(dateObj){
     let month;
+    //get current month
     let num=dateObj.getMonth();
 
+    //convert number to a month
     switch (num) {
         case 0:
             month = "January";
@@ -44,5 +46,6 @@ function month_name(dateObj){
     return month;
 }
 
+//tests
 console.log(month_name(new Date("10/11/2009")));
 console.log(month_name(new Date("11/13/2014")));
