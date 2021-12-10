@@ -9,8 +9,12 @@ function is_weekend(str){
 
     //use date object get day to workout if its a weekend
     if(date.getDay() == 6 || date.getDay() == 0) {
-        return "weekend"
+        return "weekend";
     };
+    
+    else{
+        return "not weekend";
+    }
 
 }
 
